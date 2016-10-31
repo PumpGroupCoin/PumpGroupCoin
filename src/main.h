@@ -28,7 +28,7 @@ class CRequestTracker;
 class CNode;
 
 static const int LAST_POW_BLOCK = 1000000; //Last proof of work block
-
+static const int FORK_HEIGHT = 22415;
 static const unsigned int MAX_BLOCK_SIZE = 10000000; //Maximum block size
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const unsigned int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
